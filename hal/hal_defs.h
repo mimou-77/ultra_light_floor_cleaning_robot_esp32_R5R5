@@ -8,7 +8,20 @@
 extern "C" {
 #endif
 
-#include "driver/gpio.h"
+#include "gpio_num.h"
+
+
+
+
+
+
+
+// motor
+// driver L298N : commands 2 motors : 
+//  - 
+
+
+
 
 
 

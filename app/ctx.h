@@ -26,13 +26,13 @@ typedef struct
     float x;
     float y;
     float theta;
-} Pose_t;
+} pose_t;
 
 
 // robot state = pose + environment map
 typedef struct
 {
-    Pose pose;
+    pose_t pose;
     uint8_t grid[GRID_SIZE][GRID_SIZE]; // 0: unkown, 1: free, 2: Obstacle
 } ctx_t;
 

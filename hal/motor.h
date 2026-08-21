@@ -23,7 +23,8 @@ extern "C" {
 /*-----------------------------------------------------------------------------------------------*/
 
 
-
+void motor_init();
+void motor_set_speeds(int left_speed, int right_speed);
 
 
 #ifdef __cplusplus

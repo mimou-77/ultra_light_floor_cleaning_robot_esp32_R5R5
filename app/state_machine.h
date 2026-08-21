@@ -18,11 +18,12 @@ extern "C" {
 /* types                                                                                         */
 /*-----------------------------------------------------------------------------------------------*/
 
-typedef struct State State;
+// state is a set of cbs
+typedef struct state_s state_t;
 
 
-// cbs that execute when we move from 1 state to another
-struct State
+// cbs that execute when we transition from 1 state to another
+struct state_s
 {
     void (*init)(ctx_t* ctx);
     void (*update)(ctx_t* ctx);
@@ -30,15 +31,21 @@ struct State
 };
 
 
+
 /*-----------------------------------------------------------------------------------------------*/
 /* headers                                                                                       */
 /*-----------------------------------------------------------------------------------------------*/
 
+// transition from current_state to new_state ;
+// exists current state, updates current_state=new_state, initializes new_state
+void state_machine_set(state_t * new_state, ctx_t * ctx);
+
+// 
+void state_machine_update(ctx_t * ctx);
 
 
-
-
-
+extern state_t cleaning_state; // position ok, i clean
+extern state_t avoidance_state; // position nok, i avoid
 
 
 #ifdef __cplusplus
