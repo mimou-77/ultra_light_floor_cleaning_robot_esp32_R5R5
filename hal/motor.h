@@ -22,8 +22,9 @@ extern "C" {
 /* headers                                                                                       */
 /*-----------------------------------------------------------------------------------------------*/
 
-
+// config L298N pins + ledc periph
 void motor_init();
+// move left motor and right motor with the speeds in args
 void motor_set_speeds(int left_speed, int right_speed);
 
 

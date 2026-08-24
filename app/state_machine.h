@@ -31,12 +31,21 @@ struct state_s
 };
 
 
+/*-----------------------------------------------------------------------------------------------*/
+/* global variables                                                                             */
+/*-----------------------------------------------------------------------------------------------*/
+
+extern state_t cleaning_state; // position ok, i clean
+extern state_t avoidance_state; // position nok, i avoid
+
+
+
 
 /*-----------------------------------------------------------------------------------------------*/
 /* headers                                                                                       */
 /*-----------------------------------------------------------------------------------------------*/
 
-// transition from current_state to new_state ;
+// transition ctx from current_state to new_state ;
 // exists current state, updates current_state=new_state, initializes new_state
 void state_machine_set(state_t * new_state, ctx_t * ctx);
 
@@ -44,8 +53,7 @@ void state_machine_set(state_t * new_state, ctx_t * ctx);
 void state_machine_update(ctx_t * ctx);
 
 
-extern state_t cleaning_state; // position ok, i clean
-extern state_t avoidance_state; // position nok, i avoid
+
 
 
 #ifdef __cplusplus
