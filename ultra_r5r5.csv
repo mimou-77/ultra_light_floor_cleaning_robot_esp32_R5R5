@@ -7,6 +7,6 @@ support piles,,2.6,https://tuni-smart-innovation.com/products/support-pile-2-186
 buck,7.4V (batteries) ---> 5V/3A (esp+servo+ultrason),4,https://seli.tn/product/modules-abaisseurs-mp1584en-3a-sorties-ajustable-05vdc-et-12vdc/
 MODULE MOSFET IRF520,pour piloter le petit moteur de brossage,4.5,https://seli.tn/product/module-mosfet-irf520/
 2X capteur fin course,pour detecter les bumps quand ya angle mort du capteur us,2*2.5,https://seli.tn/product/fin-de-course-a-lame-kw43z3/
-2 moteurs DC,"chacun alimentation entre 3V et 9V ",X
-driver moteur L298N,,X
-moteur de la brosse,XXXXXXXXXXXXXXXXXX,?
+2 moteurs DC,"chacun alimentation entre 3V et 9V ",X,
+driver moteur L298N,,X,
+moteur de la brosse,XXXXXXXXXXXXXXXXXX,?,
