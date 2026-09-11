@@ -1,0 +1,12 @@
+﻿esp32 s3 devkit;pour sa PSRAM;35;https://seli.tn/product/carte-de-developpement-esp32-s3/
+gyro+accelerometre MPU-6050;pour compenser glissement roues + mesure vitesse et sens;9;https://seli.tn/product/mpu6050-gy-521-accelerometre-et-gyroscope-3-axes/
+2X LM393-H2010 capteur vitesse IR;à utiliser avec les disques des moteurs;2*6,5;https://seli.tn/product/lm393-h2010-capteur-de-vitesse-ir-7mm-4-pines/
+CONVERTISSEUR DE NIVEAU 3.3V/5V ;Logic Level Shifter - capteurs (5v) vers esp32 gpios (3v);5;https://seli.tn/product/convertisseur-de-niveau-bidirectionel-3-3v-5v-3-3v-5v-4-cannaux/
+2X pile 18650 2500mAh 3,7V;;2*16,5;https://seli.tn/product/pile-li-ion-18650-rechargeable-3-7-eve-energy/
+support piles;;2,6;https://tuni-smart-innovation.com/products/support-pile-2-18650
+buck;7,4V (batteries) ---> 5V,3A (esp,servo,ultrason);4;https://seli.tn/product/modules-abaisseurs-mp1584en-3a-sorties-ajustable-05vdc-et-12vdc/
+MODULE MOSFET IRF520;pour piloter le petit moteur de brossage;4,5;https://seli.tn/product/module-mosfet-irf520/
+2X capteur fin course;pour detecter les bumps quand ya angle mort du capteur us;2*2,5;https://seli.tn/product/fin-de-course-a-lame-kw43z3/
+2 moteurs DC;chacun alimentation entre 3V et 9V ;;
+driver moteur L298N;;;
+moteur de la brosse;XXXXXXXXXXXXXXXXXX;;
